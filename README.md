@@ -48,11 +48,6 @@ When the program starts, users are presented with two options:
 * balanceDB.txt: Maintains account balances for all users.
 * acc_[accountNumber].txt: Stores transaction history for each individual account.
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Author
 
 This project was created by [Aditya Telikicharla](https://github.com/sqlxe)
