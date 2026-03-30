@@ -10,7 +10,7 @@ public class Main {
     private static void intro() throws IOException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("┌───────────────────────────────┐");
-        System.out.println("│ Welcome to SawOnGam Bank Ltd. │");
+        System.out.println("│ Welcome to ABCD Bank Ltd.     │");
         System.out.println("├───────────────────────────────┤");
         System.out.println("│ Type 1: Login                 │");
         System.out.println("│ Type 2: Create Account        │");
