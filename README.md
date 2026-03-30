@@ -48,6 +48,85 @@ When the program starts, users are presented with two options:
 * balanceDB.txt: Maintains account balances for all users.
 * acc_[accountNumber].txt: Stores transaction history for each individual account.
 
+## How to Run the Project in IntelliJ IDEA
+
+Follow these steps to run the Bank Management System project using IntelliJ IDEA:
+
+### 1. Install Required Software
+
+* Install Java JDK (8 or above)
+* Install IntelliJ IDEA
+
+---
+
+### 2. Clone the Repository
+
+Open terminal or command prompt and run:
+
+git clone https://github.com/sqlxe/Bank-Management-System.git
+
+Or download the ZIP and extract it.
+
+---
+
+### 3. Open Project in IntelliJ
+
+1. Open IntelliJ IDEA
+2. Click on Open
+3. Select the project folder
+4. Wait for IntelliJ to index the project
+
+---
+
+### 4. Configure JDK
+
+1. Go to File → Project Structure → Project
+2. Set Project SDK to your installed JDK (e.g., Java 8/11/17)
+
+---
+
+### 5. Locate Main File
+
+* Navigate to:
+  src → Main.java
+* This file contains the main method (public static void main)
+
+---
+
+### 6. Run the Project
+
+1. Open Main.java
+2. Click the green Run button (▶) at the top
+   OR
+3. Right-click inside the file and click Run 'Main.main()'
+
+---
+
+### 7. Output
+
+* The program will start running in the Run Console
+* Follow on-screen instructions (menu options like deposit, withdraw, etc.)
+
+---
+
+### Important Notes
+
+* Make sure all .java files are inside the src folder
+* If using a database (MySQL), ensure:
+
+  * Database is running
+  * JDBC driver is added
+  * Credentials are correctly set in code
+
+---
+
+### Troubleshooting
+
+* Error: No JDK found → Set JDK in Project Structure
+* Error: Cannot find symbol → Rebuild project (Build → Rebuild Project)
+* Program not running → Ensure you are running the correct Main.java file
+
+
 ## Author
 
 This project was created by [Aditya Telikicharla](https://github.com/sqlxe)
